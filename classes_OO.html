@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+<title>Python Classes Python 3.11.4 Course</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+    
+  font-family:  "Arial, Helvetica, sans-serif";
+  
+}
+
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #fdfcfc;1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #696969; 
+  color: #FFFFFF; 
+  display: block; 
+  padding: 14px; 
+  text-decoration: none; 
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /*  mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #FF4500; 
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  font-size: 1.2em; 
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+ 
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  position:absolute;
+left: 100px;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  position:relative;
+    left: 500px;
+}
+
+.button2:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Introducing object-oriented</h2>
+<p>A object is a physical thing that we can sense, feel, and manipulate.</p>
+<p>An object is an instance of a class, which is a blueprint or template defining its properties (attributes) and behaviors (methods). Objects encapsulate data and related functionalities, allowing for modular and structured programming.
+
+    For example, let's consider a "Car" class. An object of the "Car" class would represent a specific car instance with its unique characteristics and behaviors. The object would have attributes like "color," "model," and "speed," and methods such as "start," "accelerate," and "brake." Multiple car objects can be created based on the same class, each with its own state and behavior.</p>
+
+<header>
+  <h2> <button name="redirect" onClick="redirect()" class="button button1">Before</button>
+    <h2> <button name="redirect" onClick="redirect()" class="button button2">Next</button>
+    <script type="text/javascript">
+    function redirect()
+    {
+    var url = "http://www.(url).com";
+    window.location(url);
+    }
+    </script></h2>
+</header>
+
+<section>
+  <nav class="vertical-menu">
+    <ul class="vertical-menu">
+      <li><a href="#" class="active">Introducing object-oriented</a></li>
+      <li><a href="#">Python Classes</a></li>
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Introducing object-oriented</h1>
+    <p><ul>
+        <li>In object-oriented programming, objects are instances of classes.</li>
+        
+
+
+
+        <li>Objects encapsulate data (attributes) and behaviors (methods).</li>
+        <li>Objects interact with each other through message passing.</li>
+        <li>OOP promotes modular and structured programming.</li>
+      </ul></p>
+   
+  </article>
+</section>
+
+<footer>
+  <p>© Copyright 2023, Solmaz Seyed Monir</p>
+</footer>
+
+</body>
+</html>
+
